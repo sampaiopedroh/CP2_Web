@@ -23,5 +23,5 @@ function calcularGarrafas() {
     let calVinho1 = Math.ceil(cal / mlVinho1);
     let calVinho2 = Math.ceil(cal / mlVinho2);
 
-    texto.innerHTML = `Você precisará de ${calVinho1} garrafas do vinho 1 com ${mlVinho1} ml, no valor total de R$${calVinho1 * precoVinho1}\nOu ${calVinho2} garrafas do vinho 2 com ${mlVinho2/1000} L, no valor total de R$${calVinho2 * precoVinho2}\nPara os ${cal} ml's totais.`;
+    texto.innerHTML = `<p>Você precisará de ${calVinho1} garrafas do vinho 1 com ${mlVinho1} ml, no valor total de R$${calVinho1 * precoVinho1}.</p><p>Ou ${calVinho2} garrafas do vinho 2 com ${mlVinho2/1000} L, no valor total de R$${calVinho2 * precoVinho2}</p><p>Para os ${cal} ml totais.</p>`;
 }
